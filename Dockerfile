@@ -1,7 +1,7 @@
 FROM cm2network/steamcmd:root
 
-LABEL org.opencontainers.image.authors="Sebastian Schmidt"
-LABEL org.opencontainers.image.source="https://github.com/jammsen/docker-palworld-dedicated-server"
+LABEL org.opencontainers.image.authors="mindflay3r"
+LABEL org.opencontainers.image.source="https://github.com/antisoft-club/palworld-container"
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends procps xdg-user-dirs \
