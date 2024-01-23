@@ -22,19 +22,19 @@ RUN curl -fsSLO "$SUPERCRONIC_URL" \
 
 USER steam
 
-ENV TIMEZONE=Europe/Berlin \
+ENV TIMEZONE=America/Los_Angeles \
     DEBIAN_FRONTEND=noninteractive \
     PUID=0 \
     PGID=0 \
     ALWAYS_UPDATE_ON_START=true \
-    MAX_PLAYERS=32 \
+    MAX_PLAYERS=16 \
     MULTITHREAD_ENABLED=true \
     COMMUNITY_SERVER=true \
     RCON_ENABLED=true \
     PUBLIC_IP=10.0.0.1 \
     PUBLIC_PORT=8211 \
-    SERVER_NAME=jammsen-docker-generated-###RANDOM### \
-    SERVER_DESCRIPTION="Palworld-Dedicated-Server running in Docker by jammsen" \
+    SERVER_NAME=antisoft.club \
+    SERVER_DESCRIPTION="Join our discord at http://discord.antisoft.club" \
     SERVER_PASSWORD=serverPasswordHere \
     ADMIN_PASSWORD=adminPasswordHere \
     BACKUP_ENABLED=true \
